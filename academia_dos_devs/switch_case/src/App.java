@@ -15,8 +15,8 @@ public class App {
         } else {
             System.out.println("Origem desconhecida");
         }
-    }
-}*/
+    
+*/
 
         switch (personagem){
             case "Vegeta":
@@ -37,4 +37,6 @@ public class App {
             default:
                 System.out.println("Origem desconhecida");
         }
+
+        
         
