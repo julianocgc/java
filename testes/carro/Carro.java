@@ -1,21 +1,21 @@
-public class Carro {
+public class Carro { //criação da classe (LetraMaiuscula)
 
-    // atributos
+    // atributos (letra minuscula)
     String nome;
     String marca;
     int ano;
     int vel;
 
-    // métodos
-    void acelerar(int aceleracao){ // parâmetro
+    // métodos (letra minuscula)
+    void acelerar(int aceleracao){ // parâmetro (letra minuscula)
         vel+=aceleracao;
     }
 
-    void freiar(int reduzir){ // parâmetro
+    void freiar(int reduzir){ // parâmetro (letra minuscula)
         vel-=reduzir;
     }
 
-    void buzinar(){
+    void buzinar(){ // sem parâmetro
         System.out.println("bibibi");
     }
 
