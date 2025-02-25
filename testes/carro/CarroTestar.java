@@ -1,11 +1,11 @@
 public class CarroTestar{ // criação da classe (LetraMaiuscula)
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // método principal da classe (main)
 
         // instanciando o objeto carro
         Carro c1 = new Carro(); // (Letra Maiuscula e minuscula)
 
-        // atribuindo valores aos atributos do objeto carro (letra minuscula)
+        // passando valores aos atributos do objeto carro (letra minuscula)
         c1.nome = "Uno";
         c1.marca = "Fiat";
         c1.ano = 2015;
